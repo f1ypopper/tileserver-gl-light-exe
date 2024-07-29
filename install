@@ -1,5 +1,0 @@
-extract and cd 
-install yarn `npm i -g yarn`
-install dependencies `yarn install`
-run the electron-builder `node ./node_modules/electron-builder/cli.js`
-check the newly created `/dist` dir for `.exe`

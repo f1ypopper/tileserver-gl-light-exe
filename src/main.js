@@ -238,14 +238,6 @@ const startWithInputFile = async (inputFile) => {
 
 app.whenReady().then(async () => {
   console.log("starting server...");
-  //let file_path = "zurich_switzerland.mbtiles";
-  /*
-  if (process.argv.at(1) !== undefined){
-    file_path = process.argv.at(1);
-  }*/
-
-
   const file_path = opts["file"];
-
   await startWithInputFile(file_path);
 });
