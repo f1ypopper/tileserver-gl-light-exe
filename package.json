@@ -60,7 +60,7 @@
   },
   "homepage": "https://github.com/maptiler/tileserver-gl#readme",
   "devDependencies": {
-    "electron": "^31.2.1",
+    "electron": "^31.3.0",
     "electron-builder": "^24.13.3"
   },
   "author": "cdac",
